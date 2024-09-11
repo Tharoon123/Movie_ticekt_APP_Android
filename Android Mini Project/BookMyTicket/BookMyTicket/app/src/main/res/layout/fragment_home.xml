@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:gravity="center"
+    android:background="@drawable/backgroundimage2"
+
+    >
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+
+            android:id="@+id/k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kong X Godzilla"
+            android:fontFamily="@font/zillaslabregular"
+
+            android:textSize="25dp"
+            android:textColor="#FAFAFA"
+            android:gravity="center"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".....Now Streaming....."
+            android:fontFamily="@font/zillaslabregular"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+        />
+        <ImageView
+
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/poster1"
+        />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/zillaslabregular"
+            android:text="Land Of Bad"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".....Now Streaming....."
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/poster2"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KungFu Panda IV"
+            android:fontFamily="@font/zillaslabregular"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/zillaslabregular"
+            android:layout_height="wrap_content"
+            android:text=".....Now Streaming....."
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/poster3"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avatar The Last Airbender"
+            android:fontFamily="@font/zillaslabregular"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".....Now Streaming....."
+            android:fontFamily="@font/zillaslabregular"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/poster4"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

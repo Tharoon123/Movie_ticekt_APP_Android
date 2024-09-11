@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookFragment"
+    android:gravity="center"
+    android:background="@drawable/backgroundimage"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/bokFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Book Your Seat"
+        android:fontFamily="@font/sevillanaregular"
+        android:textColor="#EDE9E9"
+        android:textSize="50dp" />
+
+
+    <ImageView
+
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/theater"
+
+        />
+
+    <ScrollView
+        android:layout_marginTop="280dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/zillaslabregular"
+                android:text="Godzilla X Kong (2024) \n1.30pm - 3.30pm"
+                android:textColor="#F8F4F4"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_marginLeft="33dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English 3D"
+                android:textSize="20dp"
+                android:textColor="#F8F4F4"/>
+            <Button
+                android:id="@+id/book1"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/zillaslabregular"
+                android:text="Book"
+                android:textSize="30dp"
+                android:backgroundTint="#021243"/>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:fontFamily="@font/zillaslabregular"
+                android:layout_marginTop="50dp"
+                android:text="Aranmani 4 \n3.30pm - 5.30pm"
+                android:textColor="#F8F4F4"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamil 2D"
+                android:textSize="20dp"
+                android:textColor="#F8F4F4"/>
+            <Button
+                android:id="@+id/book2"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zillaslabregular"
+                android:textColor="@color/white"
+                android:text="Book"
+                android:textSize="30dp"
+                android:backgroundTint="#021243"/>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:fontFamily="@font/zillaslabregular"
+                android:layout_marginTop="50dp"
+                android:text="Visal Adare \n5.30pm - 7.30pm"
+                android:textColor="#F8F4F4"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinhala 2D"
+                android:textSize="20dp"
+                android:textColor="#F8F4F4"/>
+            <Button
+                android:id="@+id/book3"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/zillaslabregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Book"
+                android:textSize="30dp"
+                android:backgroundTint="#021243"/>
+            <TextView
+                android:layout_width="350dp"
+                android:fontFamily="@font/zillaslabregular"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:text="Kungfu Panda 4 \n7.30pm - 9.30pm"
+                android:textColor="#F8F4F4"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English Animated  2D"
+                android:textSize="20dp"
+                android:textColor="#F8F4F4"/>
+            <Button
+                android:id="@+id/book4"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/zillaslabregular"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Book"
+                android:textSize="30dp"
+                android:backgroundTint="#021243"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

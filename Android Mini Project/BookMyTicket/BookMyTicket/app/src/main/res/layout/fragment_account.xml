@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:background="@drawable/backgroundimage"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:background="#6F5EBD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+
+            android:src="@drawable/useracc"
+            />
+
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+            android:id="@+id/accname"
+            android:layout_width="260dp"
+            android:layout_height="122dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:padding="1dp"
+            android:text="Hello\nTharoon"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:background="#6349D8"
+
+        >
+        <ImageView
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user"
+
+            />
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Account Details"
+            android:textSize="35dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#6349D8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="270dp">
+        <ImageView
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/settings"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Settings"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#6349D8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="340dp">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/help"
+            />
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Help Center"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="530dp"
+        >
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/share"
+            />
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Share with Friends"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="130dp"
+        >
+
+        <TextView
+            android:fontFamily="@font/zillaslabregular"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Powered by \n TTN Solutions"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</RelativeLayout>
